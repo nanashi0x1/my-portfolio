@@ -3,15 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nanashi0x1.github.io/MyPortfolio",
+  "homepage": "https://nanashi0x1.github.io/MyPortfolio/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@remix-run/router": "^1.14.2",
