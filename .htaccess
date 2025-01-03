@@ -1,6 +1,6 @@
-apache
-       <IfModule mod_mime.c>
-         AddType application/javascript .js
-         AddType text/javascript .js
-         # AddType application/ecmascript .mjs #if using mjs
-       </IfModule>
+<IfModule mod_mime.c>
+  AddType application/javascript .js
+  AddType text/javascript .js
+  AddType text/tsx .tsx
+  # AddType application/ecmascript .mjs #if using mjs
+</IfModule>
