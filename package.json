@@ -1,4 +1,4 @@
-The `package.json` file looks correct for a TypeScript (TSX) app using Vite. However, here is a formatted version with proper spacing to ensure clarity:
+Here is the formatted `package.json` file with proper spacing for clarity:
 
 ```json
 {
@@ -39,4 +39,3 @@ The `package.json` file looks correct for a TypeScript (TSX) app using Vite. How
   }
 }
 ```
-
