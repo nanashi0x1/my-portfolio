@@ -1,3 +1,6 @@
+The `package.json` file looks correct for a TypeScript (TSX) app using Vite. However, here is a formatted version with proper spacing to ensure clarity:
+
+```json
 {
   "name": "vite-react-typescript-starter",
   "private": true,
@@ -11,7 +14,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@remix-run/router": "^1.14.2",
@@ -36,4 +38,5 @@
     "vite": "^5.0.12"
   }
 }
+```
 
